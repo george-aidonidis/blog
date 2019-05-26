@@ -1,0 +1,81 @@
+{
+  "name": "dunno-blog",
+  "private": true,
+  "description": "Personal blog by George Aidonidis",
+  "version": "0.0.1",
+  "author": {
+    "name": "George Aidonidis",
+    "email": "georgeaidonidis@gmail.com",
+    "url": "https://iamgeorge.dev"
+  },
+  "dependencies": {
+    "gatsby": "^2.7.1",
+    "gatsby-image": "^2.1.1",
+    "gatsby-plugin-feed": "^2.2.1",
+    "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-offline": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.1.1",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-remark-copy-linked-files": "^2.0.12",
+    "gatsby-remark-images": "^3.0.12",
+    "gatsby-remark-prismjs": "^3.2.9",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-remark-smartypants": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "prismjs": "^1.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.54",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "gatsby-plugin-eslint": "^2.0.5",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "now-build": "yarn run build",
+    "dev": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test:unit:branch"
+    }
+  }
+}
