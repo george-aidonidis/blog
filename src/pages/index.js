@@ -1,11 +1,22 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-
+import styled from 'styled-components';
+import { rhythm } from '../utils/typography';
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import { rhythm } from '../utils/typography';
+export const Title = styled.h3`
+  font-family: Montserrat,
+  margin-bottom: ${rhythm(1 / 4)},
+  font-size: 1.75rem,
+  color: #80F,
+`;
+
+export const StyledLink = styled(Link)`
+	box-shadow: none,
+	color: #80F
+`;
 
 const BlogIndex = ({ location, data }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -15,28 +26,25 @@ const BlogIndex = ({ location, data }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug;
-        return (
-          <div key={node.fields.slug}>
-            <h3
-              style={{
-                marginBottom: rhythm(1 / 4),
-              }}
+
+      {posts.map(({ node }) => (
+        <div key={node.fields.slug}>
+          <Title>
+            <StyledLink
+              style={{ boxShadow: `none`, color: '#80F' }}
+              to={node.fields.slug}
             >
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {title}
-              </Link>
-            </h3>
-            <small>{node.frontmatter.date}</small>
-            <p
-              dangerouslySetInnerHTML={{
-                __html: node.frontmatter.description || node.excerpt,
-              }}
-            />
-          </div>
-        );
-      })}
+              {node.frontmatter.title}
+            </StyledLink>
+          </Title>
+          <small>{node.frontmatter.date}</small>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: node.frontmatter.description || node.excerpt,
+            }}
+          />
+        </div>
+      ))}
     </Layout>
   );
 };
@@ -60,7 +68,6 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            description
           }
         }
       }

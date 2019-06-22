@@ -41,7 +41,7 @@ const Layout = props => {
           style={{
             boxShadow: 'none',
             textDecoration: 'none',
-            color: 'inherit',
+            color: '#80F',
           }}
           to="/"
         >
@@ -63,7 +63,9 @@ const Layout = props => {
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with{' '}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://www.gatsbyjs.org" style={{ color: '#80F' }}>
+          Gatsby
+        </a>
       </footer>
     </div>
   );
