@@ -11,11 +11,11 @@ I love working on side projects but I am just as bad finishing them 😅
 
 ### Why?
 
-Lets see some of the most common reasons of why a side project does not see the finish line
+Lets see some of the reasons why a side project never sees the finish line.
 
 #### Idea is too 'wide'
 
-This is the most common scenario. You start out by thinking you can build the next commerce solution for fresh vegetables. You ask a few of your friends if they would use it and suddenly you are their new god, waiting to save them from all the packaged madness!
+This is the most common scenario. You start out by thinking you can build the next e-commerce solution for fresh vegetables. You ask a few of your friends if they would use it and suddenly you are their new god, waiting to save them from all the packaged madness!
 
 And you have no idea on where to start ¯\\\_(ツ)\_/¯‍
 
@@ -24,31 +24,31 @@ How would the users interact?
 Don't you need authentication?
 What about transactions?
 
-These concerns overwhelms you so another side project is left unfinished 😬
+All these concerns and more overwhelms you, so another side project is left unfinished 😬
 
 #### Not having a plan
 
-Having a great idea is one thing but planning out how you are going to implemented is more important. It's extremely rare (well, impossible actually) to just sit in front of the computer, start shooting code and make your idea a real application.
+Having a great idea is one thing but planning on how you are going to implemented it is more important. It's extremely rare (well, impossible actually) to just sit in front of the computer, start shooting code and make your idea a real application.
 
 #### Not having a schedule
 
-We don't go to our work any time we want. Why working on a side project should be different?
+We don't go to our work any time we want. Why working a side project should be different?
 
 #### Trying to be perfect
 
-When we are the manager of our project we tend to set very high standards of code quality and tools that we use. I've often fell to a victim of wasting time reading about configuring these tools instead of working towards my goal, finish the side project!
+When we are the manager of our project we tend to set very high standards of code quality and tools that we use. I've often fell a victim of wasting time reading about configuring tools instead of working towards my goal, finish my project!
 
 #### Not having a reward
 
 Working on a side project usually doesn't include getting paid for it or getting any immediate public recognition.
 
-Now, that doesn't mean that side projects are always doomed. There are a few tips that we can do to help us finish our side project!
+Now, that doesn't mean that side projects are always doomed. There are a few tips that we can do to help us finish our side project.
 
 ### Tips
 
 #### Set a small goal
 
-This is the most important tip suggested by a good friend mine. Going for the next Facebook is not feasible. Try for something smaller instead, maybe a function that capitalizes words in an array or a logger extension for the browser. Even if you have a large project idea, try to break it down to very small projects.
+This is the most important tip suggested by my good friend and colleague. Going for the next Facebook is not feasible. Try for something smaller instead, maybe a function that capitalizes words in an array or a logger extension for the browser. Even if you have a large project idea, try to break it down to very small projects.
 
 Key thing here is that when you build something small it provides the sense of achievement quicker than building a bigger project.
 
@@ -58,19 +58,19 @@ Investing some time in the very beginning is crucial. Resist the urge to develop
 
 #### Publish it!
 
-They say that when you release a product you should a bit ashamed for it.
+They say that when you release a product you should be a bit ashamed for it.
 
-And this is so true! There are always things to improve no matter the quality for the project. Stop wasting time perfecting things and release 😀
+And this is so true! There are always things to improve no matter the quality of the project. Stop wasting time perfecting things and release 😀
 
 #### Set time constraints
 
 Working 1 hour every two weeks might not be the best idea. Try to introduce some consistent scheduling on how often you are going to work your idea.
 
-Is too much? Maybe you should split it to smaller tasks/projects (remember the first tip 😉)
+Is it too much? Maybe you should split it to smaller tasks/projects (remember the first tip 😉)
 
 #### Simplify things
 
-Try not to over-engineer simple tasks. Focus on finishing the task and releasing it. All the cool things about auto delivery/shipping/you-name-it can come after that 😬
+Try not to over-engineer simple tasks. Focus on finishing the task and releasing it. All the cool things about auto delivery/shipping-to-moon/you-name-it can come after that 😬
 
 ### Conclusion
 
