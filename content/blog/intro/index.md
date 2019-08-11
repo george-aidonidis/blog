@@ -1,6 +1,6 @@
 ---
 title: New beginnings
-date: '2019-05-29T22:12:03.284Z'
+date: '2019-07-29T22:12:03.284Z'
 ---
 
 ### What is this blog about? 🤔
