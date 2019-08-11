@@ -3,7 +3,7 @@ title: Why do side projects fail?
 date: '2019-08-10T18:13:06.206Z'
 ---
 
-Side projects are usually meant to distract us from our daily work, give us the chance to try out a new technology, have some fun, implement a solution for a small need (i.e. turn on lights by triggering a webhook 💡).
+Side projects are usually meant to distract us from our daily work, give us the chance to try out new technologies, have some fun, implement a solution for a small need (i.e. turn on lights by triggering a webhook 💡).
 
 I love working on side projects but I am just as bad finishing them 😅
 
@@ -76,7 +76,7 @@ Try not to over-engineer simple tasks. Focus on finishing the task and releasing
 
 To sum up, next time you have a cool side project idea try to:
 
-- Set small small goal(s)
+- Set small goal(s)
 - Plan things
 - Stick on a regular schedule
 - Keep it simple (stupid -> KISS)
