@@ -11,9 +11,9 @@ I love working on side projects but I am just as bad finishing them 😅
 
 ### Why?
 
-Lets see some of the reasons why a side project never sees the finish line.
+Let's see some of the reasons why a side project never sees the finish line.
 
-#### Idea is too 'wide'
+#### The idea is too 'wide'
 
 This is the most common scenario. You start out by thinking you can build the next e-commerce solution for fresh vegetables. You ask a few of your friends if they would use it and suddenly you are their new god, waiting to save them from all the packaged madness!
 
@@ -28,7 +28,7 @@ All these concerns and more overwhelms you, so another side project is left unfi
 
 #### Not having a plan
 
-Having a great idea is one thing but planning on how you are going to implemented it is more important. It's extremely rare (well, impossible actually) to just sit in front of the computer, start shooting code and make your idea a real application.
+Having a great idea is one thing but planning on how you are going to implement it is more important. It's extremely rare (well, impossible actually) to just sit in front of the computer, start shooting code and make your idea a real application.
 
 #### Not having a schedule
 
@@ -36,7 +36,7 @@ We don't go to our work any time we want. Why working a side project should be d
 
 #### Trying to be perfect
 
-When we are the manager of our project we tend to set very high standards of code quality and tools that we use. I've often fell a victim of wasting time reading about configuring tools instead of working towards my goal, finish my project!
+When we are the manager of our project we tend to set very high standards of code quality and tools that we use. I've often fallen a victim of wasting time reading about configuring tools instead of working towards my goal, finish my project!
 
 #### Not having a reward
 
@@ -50,7 +50,7 @@ Now, that doesn't mean that side projects are always doomed. There are a few tip
 
 This is the most important tip suggested by my good friend and colleague. Going for the next Facebook is not feasible. Try for something smaller instead, maybe a function that capitalizes words in an array or a logger extension for the browser. Even if you have a large project idea, try to break it down to very small projects.
 
-Key thing here is that when you build something small it provides the sense of achievement quicker than building a bigger project.
+The key thing here is that when you build something small it provides a sense of achievement quicker than building a bigger project.
 
 #### Plan things
 
