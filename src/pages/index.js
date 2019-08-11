@@ -14,8 +14,15 @@ export const Title = styled.h3`
 `;
 
 export const StyledLink = styled(Link)`
-	box-shadow: none,
-	color: #80F
+  box-shadow: none,
+  color: #80F
+`;
+
+const Subtitle = styled.small`
+  line-height: 1.75rem;
+  display: block;
+  margin-bottom: 1.75rem;
+  margin-top: -1.4rem;
 `;
 
 const BlogIndex = ({ location, data }) => {
@@ -37,7 +44,9 @@ const BlogIndex = ({ location, data }) => {
               {node.frontmatter.title}
             </StyledLink>
           </Title>
-          <small>{node.frontmatter.date}</small>
+          <Subtitle>
+            {node.frontmatter.date} • {node.timeToRead} min read
+          </Subtitle>
           <p
             dangerouslySetInnerHTML={{
               __html: node.frontmatter.description || node.excerpt,
@@ -65,6 +74,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
