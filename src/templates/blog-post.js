@@ -1,10 +1,18 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { rhythm, scale } from '../utils/typography';
+import { rhythm } from '../utils/typography';
+
+const Subtitle = styled.small`
+  line-height: 1.75rem;
+  display: block;
+  margin-bottom: 1.75rem;
+  margin-top: -1.4rem;
+`;
 
 const BlogPostTemplate = props => {
   const post = props.data.markdownRemark;
@@ -18,16 +26,9 @@ const BlogPostTemplate = props => {
         description={post.frontmatter.description || post.excerpt}
       />
       <h1>{post.frontmatter.title}</h1>
-      <p
-        style={{
-          ...scale(-1 / 5),
-          display: `block`,
-          marginBottom: rhythm(1),
-          marginTop: rhythm(-1),
-        }}
-      >
-        {post.frontmatter.date}
-      </p>
+      <Subtitle>
+        {post.frontmatter.date} • {post.timeToRead} min read
+      </Subtitle>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <hr
         style={{
@@ -78,6 +79,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
