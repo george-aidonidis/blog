@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "blog",
-  "alias": "dunno.tech",
+  "alias": "dunno-blog.now.sh",
   "builds": [
     {
       "src": "package.json",
