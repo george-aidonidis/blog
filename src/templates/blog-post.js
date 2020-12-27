@@ -48,14 +48,26 @@ const BlogPostTemplate = (props) => {
       >
         <li>
           {previous && (
-            <Link to={previous.fields.slug} rel="prev">
+            <Link
+              style={{
+                color: '#80F',
+              }}
+              to={previous.fields.slug}
+              rel="prev"
+            >
               ← {previous.frontmatter.title}
             </Link>
           )}
         </li>
         <li>
           {next && (
-            <Link to={next.fields.slug} rel="next">
+            <Link
+              style={{
+                color: '#80F',
+              }}
+              to={next.fields.slug}
+              rel="next"
+            >
               {next.frontmatter.title} →
             </Link>
           )}
