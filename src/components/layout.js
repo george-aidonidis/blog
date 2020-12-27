@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
-import { rhythm, scale } from '../utils/typography';
+import { rhythm, scale } from '../utils/typography'
 
-const Layout = props => {
-  const { location, title, children } = props;
-  const rootPath = `${__PATH_PREFIX__}/`;
-  let header;
+const Layout = (props) => {
+  const { location, title, children } = props
+  const rootPath = `${__PATH_PREFIX__}/`
+  let header
 
   if (location.pathname === rootPath) {
     header = (
@@ -28,7 +28,7 @@ const Layout = props => {
           {title}
         </Link>
       </h1>
-    );
+    )
   } else {
     header = (
       <h3
@@ -48,7 +48,7 @@ const Layout = props => {
           {title}
         </Link>
       </h3>
-    );
+    )
   }
   return (
     <div
@@ -68,7 +68,7 @@ const Layout = props => {
         </a>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
