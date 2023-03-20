@@ -33,6 +33,8 @@ As always, the most productive choice is to bind the command to a hotkey.
 
 ## Conclusion
 
-In summary, [Raycast](https://www.raycast.com/) offers powerful features that enhance productivity and streamline your workflow. In this blogpost we explored three functionalities: Clipboard History, Window Management, and [Authy extesion](https://www.raycast.com/guga4ka/authy) for managing two-factor authentication. By utilizing these features and assigning keyboard shortcuts, you can significantly improve your efficiency and optimize your daily tasks. Thanks for reading.
+In summary, [Raycast](https://www.raycast.com/) offers powerful features that enhance productivity and streamline your workflow. In this blogpost we explored three functionalities: Clipboard History, Window Management, and [Authy extesion](https://www.raycast.com/guga4ka/authy) for managing two-factor authentication. By utilizing these features and assigning keyboard shortcuts, you can significantly improve your efficiency and optimize your daily tasks. 
+
+Thanks for reading.
 
 Cheers 👋

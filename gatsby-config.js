@@ -49,7 +49,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-feed',
+    { resolve: 'gatsby-plugin-feed', options: { feeds: [] } },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
